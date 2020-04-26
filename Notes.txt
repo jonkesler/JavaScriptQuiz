@@ -1,0 +1,50 @@
+Store quiz questions				[what is java script]			var question = [
+Store quiz answers					[1. coffee]			      {	question : "what is java",
+Store high scores					[2. a programming language]		a : "coffee",
+Calculate user score										b : "a prgramming language",
+Create timer										       	answer : "b"
+**** https://www.youtube.com/watch?v=49pYIMygIcU ****											      },
+Change questions on answer click							      { question : "what is script",	
+												a : "x",
+=============================									b : "y",
+												answer : "a"
+onClick -> Start Button										},
+	-> timer starts									      ]
+	-> first question displayed						to call use	question[0].question
+												question[0].answer
+onClick -> any answer (need different id's for each answer - maybe setup in a table or rows?)
+	-> add to user score if correct (5 points!)
+	-> alert Correct! 
+	-> display next question
+
+	-> if incorrect
+	-> alert Incorrect!
+	-> subtract time (5 Seconds)
+	-> display next question
+
+gameOv 	-> all questions answered
+	-> timer reaches 0
+	-> show score and ask user for initals
+		-> store initals and score to high scores
+
+==================================
+
+Notes:	Use localStorage to store scores (toDo list) and show user when when page displays also use in score page.
+	Use onClick and the var id to decide which button clicked - 18-EventDelegation
+	
+	
+
+
+==================================
+
+->Clean / polished user interface
+->Responsive to multiple screen sizes
+->URL of GitHub page
+->URL of gitHub repository
+	git@github.com:jonkesler/JavaScriptQuiz.git
+	->include in Readme describing project
+->Readme
+	->follow format from 03 Homework - stay consistant
+	->include URL's
+	repository: git@github.com:jonkesler/JavaScriptQuiz.git
+	page: https://jonkesler.github.io/JavaScriptQuiz/
